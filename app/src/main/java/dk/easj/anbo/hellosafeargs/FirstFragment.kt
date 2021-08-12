@@ -36,6 +36,7 @@ class FirstFragment : Fragment() {
             val name = binding.nameEditText.text.trim().toString()
 
             // findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            // update both gradle files
             val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment(name)
             findNavController().navigate(action)
         }

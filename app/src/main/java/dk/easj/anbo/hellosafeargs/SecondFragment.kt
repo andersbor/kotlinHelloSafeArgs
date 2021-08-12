@@ -15,7 +15,7 @@ import dk.easj.anbo.hellosafeargs.databinding.FragmentSecondBinding
 class SecondFragment : Fragment() {
 
     private var _binding: FragmentSecondBinding? = null
-    private val args: SecondFragmentArgs by navArgs()
+    private val args: SecondFragmentArgs by navArgs() // update both gradle files
 
     // This property is only valid between onCreateView and onDestroyView.
     private val binding get() = _binding!!
